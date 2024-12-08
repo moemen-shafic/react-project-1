@@ -1,0 +1,25 @@
+.App{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.App.dark {
+    background: black;
+    color: white;
+}
+
+.App.light {
+    background: white;
+}
+
+.App.yellow {
+    background: yellow;
+}
+.App.blue {
+    background: blue;
+    color:white;
+}
